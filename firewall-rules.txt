@@ -1,0 +1,7 @@
+1. Open Windows Defender Firewall with Advanced Security.
+2. Go to Inbound Rules  New Rule.
+3. Choose Port  TCP  Specific Port 23  Block the connection.
+4. Name the rule Block Telnet Port 23.
+5. Apply and save the rule.
+6. To allow SSH (if applicable), repeat with Port 22  Allow connection.
+7. Remove rule from Inbound Rules to restore the state.
